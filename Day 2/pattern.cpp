@@ -110,19 +110,20 @@ int main()
 
     // Part 5: Printing Right Triangle Pattern
     // Definition: Prints a right triangle pattern of asterisks.
-    // int r = 1, c = 1;
-
-    // while (r <= 5)
-    // {
-    //     while (c <= r)
-    //     {
-    //         cout << "*";
-    //         c++;
-    //     }
-    //     cout << "\n";
-    //     c = 1;
-    //     r++;
-    // }
+    int r = 1, c = 1;
+    int n;
+    cin >> n;
+    while (r <= n)
+    {
+        while (c <= r)
+        {
+            cout << "*";
+            c++;
+        }
+        cout << "\n";
+        c = 1;
+        r++;
+    }
 
     // Output:
     // *
